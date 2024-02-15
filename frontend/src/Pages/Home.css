@@ -254,6 +254,18 @@
   /* .popular__dishes-flex{
     flex-direction: column;
   } */
+  .hero-img-container{
+    text-align: center;
+  }
+  .img-container{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero-img-container{
+    min-width: 18rem;
+    min-height: 18rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .hero__content h5 {

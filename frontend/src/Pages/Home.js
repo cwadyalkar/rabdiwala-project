@@ -67,9 +67,9 @@ const Home = () => {
     sethotPizza(slicePizza);
   }, []);
   return (
-    <Container>
+    <>
       <section>
-        <Container>
+        <Container className="gap-5">
           <Row>
             <Col lg="6" md="6">
               <div className="hero__content">
@@ -110,7 +110,7 @@ const Home = () => {
                 </div>
               </div>
             </Col>
-            <Col lg="6" md="6">
+            <Col lg="6" md="6" className="img-container">
               <img src={Heroimg} alt="" className="w-75 hero-img-container" />
             </Col>
           </Row>
@@ -151,8 +151,7 @@ const Home = () => {
                 </div>
               </Col>
             ))}
-            <Col lg="4" md="4"></Col>
-            <Col lg="4" md="4"></Col>
+            
           </Row>
         </Container>
       </section>
@@ -306,7 +305,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-    </Container>
+    </>
   );
 };
 

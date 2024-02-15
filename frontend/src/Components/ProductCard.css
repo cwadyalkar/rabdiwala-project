@@ -59,4 +59,7 @@
     font-size: 0.9rem;
     color:var(--primary-text-color);
   }
+  .popular__btn{
+    flex-direction: column;
+  }
 }
