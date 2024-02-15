@@ -28,9 +28,10 @@
   margin-top: 30px;
 }
 .contactInfo {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+
 }
 .container1 .contactInfo .box {
   position: relative;
@@ -38,7 +39,7 @@
   display: flex;
 }
 .container1 .contactInfo .box .icon1 {
-  min-width: 60px;
+  width: 60px;
   height: 60px;
   background: #ee7f1d;
   display: flex;
@@ -60,7 +61,7 @@
 }
 .contactForm {
   width: 100%;
-  padding: 40px;
+  /* padding: 40px; */
   /* background: #f8d5d5; */
 }
 .contactForm h2 {
@@ -119,5 +120,23 @@
   }
   .contactInfo{
     margin-bottom: 40px;
+  }
+}
+@media screen and (max-width:425px) {
+  .container1 .contactInfo .box {
+    flex-direction: column;
+    text-align: center;justify-content: center;
+  }
+  .container1 .contactInfo .box .text {
+    display: flex;
+    margin-left: 0;
+    margin-top: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+  }
+  .contactInfo {
+justify-content: center;
+    
   }
 }
