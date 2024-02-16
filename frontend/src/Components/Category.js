@@ -8,21 +8,21 @@ import "./Category.css";
 
 const categoryData = [
   {
-    display: "Fastfood",
+    display: "Rabdi",
     imgUrl: rabdi1,
   },
   {
-    display: "Pizza",
+    display: "Faluda",
     imgUrl: rabdi2,
   },
 
   {
-    display: "Asian Food",
+    display: "Ice Dish",
     imgUrl: rabdi3,
   },
 
   {
-    display: "Row Meat",
+    display: "Shrikhand",
     imgUrl: rabdi4,
   },
 ];

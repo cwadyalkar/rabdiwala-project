@@ -29,7 +29,7 @@
 .menu a:hover {
   color:var(--primary-text-color);
 }
-.active__menu {
+.active__menu{
   color:var(--primary-text-color);
 }
 .mobile__menu {
